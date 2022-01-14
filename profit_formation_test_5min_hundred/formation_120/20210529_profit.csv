@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,SOLUSDT,74.672512534,1.5,1000,0.2759560939999943,1,,"[{'time': 128, 'w1': -0.092, 'stock1_payoff': -28.598200000000002, 'w2': 1.708, 'stock2_payoff': 48.934132534, 'type': '上開倉'}, {'time': 132, 'w1': 0.092, 'stock1_payoff': 28.51212756, 'w2': -1.708, 'stock2_payoff': -48.572104, 'type': '正常平倉'}]"

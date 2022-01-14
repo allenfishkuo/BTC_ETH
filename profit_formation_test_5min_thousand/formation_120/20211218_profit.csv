@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+PAXGUSDT,YFIIUSDT,2591.188854,1.5,1000,-29.239617999999837,1,,"[{'time': 124, 'w1': 0.788, 'stock1_payoff': 1418.6328540000002, 'w2': -0.376, 'stock2_payoff': -1302.84, 'type': '下開倉'}, {'time': 285, 'w1': -0.788, 'stock1_payoff': -1420.7640000000001, 'w2': 0.376, 'stock2_payoff': 1275.731528, 'type': '尾盤強制平倉'}]"

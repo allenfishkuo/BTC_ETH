@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ETCUSDT,WNXMUSDT,126.75422771,1.5,1000,0.33816680399999655,1,,"[{'time': 120, 'w1': -1.244, 'stock1_payoff': -59.025312, 'w2': 1.316, 'stock2_payoff': 73.63144691, 'type': '上開倉'}, {'time': 189, 'w1': 1.244, 'stock1_payoff': 57.93437189400001, 'w2': -1.316, 'stock2_payoff': -72.20234, 'type': '正常平倉'}]"

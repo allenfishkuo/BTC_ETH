@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ETHUSDT,KP3RUSDT,3650.9989644400002,1.5,1000,7.38241724000045,1,,"[{'time': 120, 'w1': 0.836, 'stock1_payoff': 3180.4991244400003, 'w2': -0.72, 'stock2_payoff': -522.7776, 'type': '下開倉'}, {'time': 130, 'w1': -0.836, 'stock1_payoff': -3168.5654, 'w2': 0.72, 'stock2_payoff': 518.2262928000001, 'type': '正常平倉'}]"
+ETHUSDT,PAXGUSDT,4763.57385714,1.5,1000,2.439385140000468,1,,"[{'time': 122, 'w1': 0.628, 'stock1_payoff': 2393.06025714, 'w2': -1.456, 'stock2_payoff': -2633.904, 'type': '下開倉'}, {'time': 136, 'w1': -0.628, 'stock1_payoff': -2377.94712, 'w2': 1.456, 'stock2_payoff': 2621.2302480000003, 'type': '正常平倉'}]"

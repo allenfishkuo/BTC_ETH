@@ -1,0 +1,9 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ADAUSDT,DOTUSDT,2.18633595,1.5,1000,0.0094937100000001,1,,"[{'time': 730, 'w1': 0.868, 'stock1_payoff': 1.10503995, 'w2': -0.048, 'stock2_payoff': -1.20144, 'type': '下開倉'}, {'time': 1120, 'w1': -0.868, 'stock1_payoff': -1.088472, 'w2': 0.048, 'stock2_payoff': 1.1943657600000002, 'type': '正常平倉'}]"
+BNBUSDT,BUSDUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,ETHUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,SUSHIUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+CRVUSDT,NEARUSDT,12.797015640000001,1.5,1000,-0.08706836000000084,1,,"[{'time': 746, 'w1': 0.804, 'stock1_payoff': 3.4648589040000006, 'w2': 1.064, 'stock2_payoff': 9.332156736, 'type': '上開倉'}, {'time': 1437, 'w1': -0.804, 'stock1_payoff': -3.329364, 'w2': -1.064, 'stock2_payoff': -9.554720000000001, 'type': '尾盤強制平倉'}]"
+DOTUSDT,ETHUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+ELFUSDT,MATICUSDT,0.37607281400000003,1.5,1000,0.0006614048000000289,1,,"[{'time': 730, 'w1': -0.776, 'stock1_payoff': -0.2905344, 'w2': 0.052, 'stock2_payoff': 0.11459185399999999, 'type': '下開倉'}, {'time': 736, 'w1': 0.776, 'stock1_payoff': 0.29079595080000004, 'w2': -0.052, 'stock2_payoff': -0.11419199999999997, 'type': '正常平倉'}]"
+LUNAUSDT,NEARUSDT,18.599557697999998,1.5,1000,0.006166097999999565,1,,"[{'time': 732, 'w1': -0.088, 'stock1_payoff': -6.431039999999999, 'w2': 1.476, 'stock2_payoff': 12.811621698, 'type': '上開倉'}, {'time': 1437, 'w1': 0.088, 'stock1_payoff': 6.8800644, 'w2': -1.476, 'stock2_payoff': -13.254480000000001, 'type': '尾盤強制平倉'}]"

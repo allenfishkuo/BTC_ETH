@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+MKRUSDT,PAXGUSDT,3092.473512,1.5,1000,32.388319220000426,1,,"[{'time': 234, 'w1': -0.016, 'stock1_payoff': -66.39184, 'w2': -1.892, 'stock2_payoff': -3369.68984, 'type': '上開倉'}, {'time': 279, 'w1': 0.016, 'stock1_payoff': 64.40788304, 'w2': 1.892, 'stock2_payoff': 3404.0621161800004, 'type': '正常平倉'}]"

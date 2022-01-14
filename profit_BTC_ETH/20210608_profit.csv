@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BTCUSDT,ETHUSDT,34508.86953,1.5,10,79.40787850000561,1,,"[{'time': 172, 'w1': -0.7, 'stock1_payoff': -22254.490999999998, 'w2': 6.06, 'stock2_payoff': 14479.827630000002, 'type': '上開倉'}, {'time': 192, 'w1': 0.7, 'stock1_payoff': 22463.1556485, 'w2': -6.06, 'stock2_payoff': -14609.084399999998, 'type': '正常平倉'}]"

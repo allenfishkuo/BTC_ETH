@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+COMPUSDT,DASHUSDT,818.23444454,1.5,1000,6.341324540000073,1,,"[{'time': 161, 'w1': 0.976, 'stock1_payoff': 394.19006664, 'w2': 1.916, 'stock2_payoff': 424.04437790000003, 'type': '下開倉'}, {'time': 221, 'w1': -0.976, 'stock1_payoff': -392.0592, 'w2': -1.916, 'stock2_payoff': -419.83392, 'type': '正常平倉'}]"

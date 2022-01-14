@@ -1,0 +1,4 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,BCHUSDT,736.908984,1.5,1000,7.015833760000206,1,,"[{'time': 121, 'w1': -0.252, 'stock1_payoff': -91.46088, 'w2': -1.348, 'stock2_payoff': -727.32688, 'type': '上開倉'}, {'time': 149, 'w1': 0.252, 'stock1_payoff': 92.77051518, 'w2': 1.348, 'stock2_payoff': 733.0330785800002, 'type': '正常平倉'}]"
+AAVEUSDT,KSMUSDT,93.78730770000001,1.5,1000,0.6361077000000037,1,,"[{'time': 120, 'w1': 0.212, 'stock1_payoff': 77.46926154, 'w2': 0.072, 'stock2_payoff': 16.31804616, 'type': '下開倉'}, {'time': 121, 'w1': -0.212, 'stock1_payoff': -76.94328, 'w2': -0.072, 'stock2_payoff': -16.20792, 'type': '正常平倉'}]"
+BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ATOMUSDT,ICPUSDT,130.13463738000002,1.5,1000,0.9782672399999797,1,,"[{'time': 120, 'w1': 1.284, 'stock1_payoff': 32.52621738, 'w2': -1.652, 'stock2_payoff': -108.4538, 'type': '上開倉'}, {'time': 128, 'w1': -1.284, 'stock1_payoff': -32.17704, 'w2': 1.652, 'stock2_payoff': 109.08288985999998, 'type': '正常平倉'}]"

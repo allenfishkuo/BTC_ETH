@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+LTCUSDT,XMRUSDT,438.5969906,1.5,1000,0.6814391600000249,1,,"[{'time': 126, 'w1': 0.98, 'stock1_payoff': 173.41508660000002, 'w2': -1.104, 'stock2_payoff': -294.64656, 'type': '上開倉'}, {'time': 131, 'w1': -0.98, 'stock1_payoff': -174.6066, 'w2': 1.104, 'stock2_payoff': 296.51951256, 'type': '正常平倉'}]"

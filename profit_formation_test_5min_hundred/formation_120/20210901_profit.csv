@@ -1,0 +1,10 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,DASHUSDT,699.7510800000001,1.5,1000,10.237017599999952,1,,"[{'time': 160, 'w1': -1.868, 'stock1_payoff': -734.6844000000001, 'w2': -0.184, 'stock2_payoff': -42.8168, 'type': '上開倉'}, {'time': 190, 'w1': 1.868, 'stock1_payoff': 744.214002, 'w2': 0.184, 'stock2_payoff': 43.5242156, 'type': '正常平倉'}]"
+AAVEUSDT,XMRUSDT,904.964514,1.5,1000,-29.96148599999998,1,,"[{'time': 120, 'w1': 1.068, 'stock1_payoff': 425.49280200000004, 'w2': 1.64, 'stock2_payoff': 479.471712, 'type': '下開倉'}, {'time': 285, 'w1': -1.068, 'stock1_payoff': -439.482, 'w2': -1.64, 'stock2_payoff': -495.444, 'type': '尾盤強制平倉'}]"
+BCHUSDT,BNBUPUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BCHUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BCHUSDT,COMPUSDT,1770.7726150000003,1.5,1000,2.680145600000401,1,,"[{'time': 122, 'w1': 1.9, 'stock1_payoff': 1218.1600150000002, 'w2': -1.348, 'stock2_payoff': -614.014, 'type': '下開倉'}, {'time': 123, 'w1': -1.9, 'stock1_payoff': -1217.5199999999998, 'w2': 1.348, 'stock2_payoff': 616.0541306, 'type': '正常平倉'}]"
+BCHUSDT,LTCUSDT,406.6186312,1.5,1000,0.5389672000000019,1,,"[{'time': 121, 'w1': -0.36, 'stock1_payoff': -231.26399999999998, 'w2': 1.132, 'stock2_payoff': 198.4810312, 'type': '上開倉'}, {'time': 129, 'w1': 0.36, 'stock1_payoff': 230.629536, 'w2': -1.132, 'stock2_payoff': -197.3076, 'type': '正常平倉'}]"
+BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+COMPUSDT,DASHUSDT,566.3578086000001,1.5,1000,1.5803335999999888,1,,"[{'time': 128, 'w1': -0.788, 'stock1_payoff': -359.32800000000003, 'w2': 1.052, 'stock2_payoff': 242.96260860000004, 'type': '上開倉'}, {'time': 196, 'w1': 0.788, 'stock1_payoff': 363.903325, 'w2': -1.052, 'stock2_payoff': -245.9576, 'type': '正常平倉'}]"
+FARMUSDT,SOLUSDT,180.6934496,1.5,1000,1.5729966000000104,1,,"[{'time': 133, 'w1': -0.348, 'stock1_payoff': -87.348, 'w2': 0.896, 'stock2_payoff': 102.0802496, 'type': '上開倉'}, {'time': 237, 'w1': 0.348, 'stock1_payoff': 89.128107, 'w2': -0.896, 'stock2_payoff': -102.28735999999999, 'type': '正常平倉'}]"

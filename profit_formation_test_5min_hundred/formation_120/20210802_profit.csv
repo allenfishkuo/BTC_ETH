@@ -1,0 +1,4 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BNBUPUSDT,DASHUSDT,435.42717416,1.5,1000,-3.7622890399999562,1,,"[{'time': 143, 'w1': -0.62, 'stock1_payoff': -167.183, 'w2': 1.768, 'stock2_payoff': 284.96247416, 'type': '上開倉'}, {'time': 285, 'w1': 0.62, 'stock1_payoff': 164.82119680000002, 'w2': -1.768, 'stock2_payoff': -286.36296, 'type': '尾盤強制平倉'}]"
+BNBUSDT,DASHUSDT,89.19237376000001,1.5,1000,0.13264975999999962,1,,"[{'time': 124, 'w1': 0.164, 'stock1_payoff': 54.60213376, 'w2': -0.24, 'stock2_payoff': -38.4336, 'type': '下開倉'}, {'time': 141, 'w1': -0.164, 'stock1_payoff': -54.59396, 'w2': 0.24, 'stock2_payoff': 38.558076, 'type': '正常平倉'}]"

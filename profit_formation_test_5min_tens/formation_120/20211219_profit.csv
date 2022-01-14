@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+FXSUSDT,NEOUSDT,40.985005888,1.5,1000,0.11281194800000449,1,,"[{'time': 121, 'w1': 1.664, 'stock1_payoff': 23.629909888, 'w2': -0.748, 'stock2_payoff': -19.283440000000002, 'type': '下開倉'}, {'time': 189, 'w1': -1.664, 'stock1_payoff': -23.480703999999996, 'w2': 0.748, 'stock2_payoff': 19.247046060000002, 'type': '正常平倉'}]"
+NEOUSDT,TORNUSDT,65.9900712,1.5,1000,0.10522758000000465,1,,"[{'time': 138, 'w1': 1.424, 'stock1_payoff': 36.6840912, 'w2': -0.836, 'stock2_payoff': -32.562200000000004, 'type': '下開倉'}, {'time': 163, 'w1': -1.424, 'stock1_payoff': -36.596799999999995, 'w2': 0.836, 'stock2_payoff': 32.580136380000006, 'type': '正常平倉'}]"

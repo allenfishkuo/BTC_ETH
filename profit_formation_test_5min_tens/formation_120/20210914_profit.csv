@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AVAXUSDT,LINKUSDT,14.94858344,1.5,1000,0.07418344000000188,1,,"[{'time': 131, 'w1': 0.032, 'stock1_payoff': 1.7455377600000002, 'w2': 0.484, 'stock2_payoff': 13.20304568, 'type': '上開倉'}, {'time': 135, 'w1': -0.032, 'stock1_payoff': -1.72896, 'w2': -0.484, 'stock2_payoff': -13.145439999999999, 'type': '正常平倉'}]"

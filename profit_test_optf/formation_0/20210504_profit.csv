@@ -1,0 +1,8 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BUSDUSDT,MATICUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+CRVUSDT,LINKUSDT,0.665747982,1.5,1000,-0.05820946799999993,1,,"[{'time': 730, 'w1': -0.18, 'stock1_payoff': -0.5533199999999999, 'w2': 0.004, 'stock2_payoff': 0.167759982, 'type': '上開倉'}, {'time': 1437, 'w1': 0.18, 'stock1_payoff': 0.50953455, 'w2': -0.004, 'stock2_payoff': -0.18218400000000004, 'type': '尾盤強制平倉'}]"
+CRVUSDT,MATICUSDT,2.638429304,1.5,1000,0.015107045279999953,1,,"[{'time': 730, 'w1': 0.52, 'stock1_payoff': 1.59608228, 'w2': -1.516, 'stock2_payoff': -1.15816336, 'type': '下開倉'}, {'time': 1005, 'w1': -0.52, 'stock1_payoff': -1.49344, 'w2': 1.516, 'stock2_payoff': 1.07062812528, 'type': '正常平倉'}]"
+CRVUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+LINKUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+MATICUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

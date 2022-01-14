@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ATOMUSDT,FTTUSDT,32.441180177999996,1.5,1000,0.11120576800000492,1,,"[{'time': 136, 'w1': 1.644, 'stock1_payoff': 19.972544178, 'w2': -0.38, 'stock2_payoff': -13.85404, 'type': '下開倉'}, {'time': 142, 'w1': -1.644, 'stock1_payoff': -19.785539999999997, 'w2': 0.38, 'stock2_payoff': 13.778241590000002, 'type': '正常平倉'}]"

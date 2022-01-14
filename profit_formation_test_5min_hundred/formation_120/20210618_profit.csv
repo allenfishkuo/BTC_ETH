@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BCHUSDT,COMPUSDT,145.60787976,1.5,1000,0.1113343800000024,1,,"[{'time': 123, 'w1': -0.172, 'stock1_payoff': -100.19, 'w2': 0.188, 'stock2_payoff': 55.436879760000004, 'type': '上開倉'}, {'time': 124, 'w1': 0.172, 'stock1_payoff': 100.74557462, 'w2': -0.188, 'stock2_payoff': -55.88112, 'type': '正常平倉'}]"

@@ -1,0 +1,8 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BUSDUSDT,LTCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,TRXUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,YFIUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+CRVUSDT,XRPUSDT,1.6148649168000002,1.5,1000,0.009917036799999945,1,,"[{'time': 733, 'w1': -0.404, 'stock1_payoff': -1.2766400000000002, 'w2': 0.288, 'stock2_payoff': 0.4658889168, 'type': '上開倉'}, {'time': 740, 'w1': 0.404, 'stock1_payoff': 1.2827929200000001, 'w2': -0.288, 'stock2_payoff': -0.46212479999999995, 'type': '正常平倉'}]"
+DOGEUSDT,EOSUSDT,0.7754792778,1.5,1000,0.002689833720000062,1,,"[{'time': 750, 'w1': -1.964, 'stock1_payoff': -0.61172708, 'w2': 0.036, 'stock2_payoff': 0.2249249058, 'type': '上開倉'}, {'time': 789, 'w1': 1.964, 'stock1_payoff': 0.61475120792, 'w2': -0.036, 'stock2_payoff': -0.2252592, 'type': '正常平倉'}]"
+DOGEUSDT,SOLUSDT,0.39507873000000004,1.5,1000,0.0019161492000000502,1,,"[{'time': 755, 'w1': -0.796, 'stock1_payoff': -0.2471978, 'w2': 0.004, 'stock2_payoff': 0.17260071000000002, 'type': '下開倉'}, {'time': 780, 'w1': 0.796, 'stock1_payoff': 0.24893323920000002, 'w2': -0.004, 'stock2_payoff': -0.17242, 'type': '正常平倉'}]"
+SUSHIUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

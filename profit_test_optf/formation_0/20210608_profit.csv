@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,BNBUSDT,238.91976066,1.5,1000,0.8574605200000178,1,,"[{'time': 755, 'w1': -0.476, 'stock1_payoff': -154.37156, 'w2': 0.284, 'stock2_payoff': 99.98535666, 'type': '下開倉'}, {'time': 1073, 'w1': 0.476, 'stock1_payoff': 151.38334386, 'w2': -0.284, 'stock2_payoff': -96.13967999999998, 'type': '正常平倉'}]"
+BTCUSDT,ETHUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

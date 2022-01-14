@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BNBUPUSDT,LTCUSDT,431.83831008,1.5,1000,1.370254634000105,1,,"[{'time': 124, 'w1': -0.476, 'stock1_payoff': -135.63286799999997, 'w2': 1.992, 'stock2_payoff': 309.76872888, 'type': '下開倉'}, {'time': 139, 'w1': 0.476, 'stock1_payoff': 143.364793754, 'w2': -1.992, 'stock2_payoff': -316.13039999999995, 'type': '正常平倉'}]"

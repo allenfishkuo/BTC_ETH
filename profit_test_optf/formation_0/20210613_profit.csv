@@ -1,0 +1,13 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,NEARUSDT,6.3856543199999996,1.5,1000,0.0448109200000002,1,,"[{'time': 779, 'w1': 0.004, 'stock1_payoff': 1.13541432, 'w2': -2.0, 'stock2_payoff': -5.8336, 'type': '下開倉'}, {'time': 978, 'w1': -0.004, 'stock1_payoff': -1.14376, 'w2': 2.0, 'stock2_payoff': 5.8867566, 'type': '正常平倉'}]"
+ATOMUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+CRVUSDT,DOTUSDT,1.88659552,1.5,1000,0.020652744000000223,1,,"[{'time': 772, 'w1': -0.792, 'stock1_payoff': -1.644984, 'w2': 0.02, 'stock2_payoff': 0.40610992, 'type': '上開倉'}, {'time': 911, 'w1': 0.792, 'stock1_payoff': 1.6622868240000002, 'w2': -0.02, 'stock2_payoff': -0.40275999999999995, 'type': '正常平倉'}]"
+CRVUSDT,LINKUSDT,0.391073178,1.5,1000,0.0034692859999999465,1,,"[{'time': 749, 'w1': -0.164, 'stock1_payoff': -0.341612, 'w2': 0.004, 'stock2_payoff': 0.083622378, 'type': '上開倉'}, {'time': 911, 'w1': 0.164, 'stock1_payoff': 0.344210908, 'w2': -0.004, 'stock2_payoff': -0.082752, 'type': '正常平倉'}]"
+CRVUSDT,SUSHIUSDT,5.124072620000001,1.5,1000,-0.16790280000000024,1,,"[{'time': 730, 'w1': -1.108, 'stock1_payoff': -2.3400960000000004, 'w2': 0.38, 'stock2_payoff': 3.01798622, 'type': '下開倉'}, {'time': 1437, 'w1': 1.108, 'stock1_payoff': 2.44500698, 'w2': -0.38, 'stock2_payoff': -3.2908, 'type': '尾盤強制平倉'}]"
+DOGEUSDT,DOTUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+DOGEUSDT,FTMUSDT,0.6347399409000001,1.5,1000,0.0021752559000000754,1,,"[{'time': 732, 'w1': -1.94, 'stock1_payoff': -0.6035534, 'w2': 0.372, 'stock2_payoff': 0.0915418809, 'type': '上開倉'}, {'time': 954, 'w1': 1.94, 'stock1_payoff': 0.6034035350000001, 'w2': -0.372, 'stock2_payoff': -0.08921676, 'type': '正常平倉'}]"
+DOTUSDT,SUSHIUSDT,16.041838752,1.5,1000,0.029006180000001436,1,,"[{'time': 736, 'w1': -0.332, 'stock1_payoff': -6.804340000000001, 'w2': 1.248, 'stock2_payoff': 9.917932752, 'type': '上開倉'}, {'time': 782, 'w1': 0.332, 'stock1_payoff': 6.700981428000001, 'w2': -1.248, 'stock2_payoff': -9.785568, 'type': '正常平倉'}]"
+DOTUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+FTMUSDT,LUNAUSDT,0.19864951000000003,1.5,1000,0.0015490837600000557,1,,"[{'time': 730, 'w1': -0.188, 'stock1_payoff': -0.04641908, 'w2': 0.028, 'stock2_payoff': 0.15687233800000003, 'type': '下開倉'}, {'time': 774, 'w1': 0.188, 'stock1_payoff': 0.04548782576, 'w2': -0.028, 'stock2_payoff': -0.15439199999999997, 'type': '正常平倉'}]"
+LUNAUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+NEARUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

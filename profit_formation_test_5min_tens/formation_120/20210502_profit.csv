@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AVAXUSDT,LUNAUSDT,0.0,1.5,1000,0.0,0,,[]
+AVAXUSDT,NMRUSDT,12.819924888,1.5,1000,0.12260431000000249,1,,"[{'time': 120, 'w1': 0.232, 'stock1_payoff': 7.365143688000001, 'w2': -0.092, 'stock2_payoff': -6.060867999999999, 'type': '下開倉'}, {'time': 175, 'w1': -0.232, 'stock1_payoff': -7.33468, 'w2': 0.092, 'stock2_payoff': 6.153008622000001, 'type': '正常平倉'}]"

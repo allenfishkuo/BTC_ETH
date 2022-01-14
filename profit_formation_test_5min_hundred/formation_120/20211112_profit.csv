@@ -1,0 +1,5 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,LTCUSDT,946.9288174,1.5,1000,-35.40011779999992,1,,"[{'time': 127, 'w1': 1.636, 'stock1_payoff': 493.16753739999996, 'w2': -1.904, 'stock2_payoff': -504.1792, 'type': '下開倉'}, {'time': 285, 'w1': -1.636, 'stock1_payoff': -502.9063999999999, 'w2': 1.904, 'stock2_payoff': 478.5179448, 'type': '尾盤強制平倉'}]"
+AUTOUSDT,XMRUSDT,85.28418540000001,1.5,1000,0.22847800000000973,1,,"[{'time': 125, 'w1': 0.036, 'stock1_payoff': 39.896465400000004, 'w2': -0.196, 'stock2_payoff': -50.430800000000005, 'type': '下開倉'}, {'time': 128, 'w1': -0.036, 'stock1_payoff': -39.5532, 'w2': 0.196, 'stock2_payoff': 50.31601260000001, 'type': '正常平倉'}]"
+BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+LTCUSDT,XMRUSDT,201.7967888,1.5,1000,-5.968861399999966,1,,"[{'time': 129, 'w1': -0.404, 'stock1_payoff': -105.9288, 'w2': 0.416, 'stock2_payoff': 106.46086880000001, 'type': '上開倉'}, {'time': 285, 'w1': 0.404, 'stock1_payoff': 101.5342698, 'w2': -0.416, 'stock2_payoff': -108.03519999999999, 'type': '尾盤強制平倉'}]"

@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ENSUSDT,NEOUSDT,82.5734875,1.5,1000,0.3965115399999988,1,,"[{'time': 120, 'w1': -0.712, 'stock1_payoff': -33.01544, 'w2': 1.268, 'stock2_payoff': 52.8595915, 'type': '下開倉'}, {'time': 232, 'w1': 0.712, 'stock1_payoff': 31.25968004, 'w2': -1.268, 'stock2_payoff': -50.70732, 'type': '正常平倉'}]"

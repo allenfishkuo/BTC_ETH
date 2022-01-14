@@ -1,0 +1,6 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ADAUPUSDT,ATOMUSDT,5.18081274,1.5,1000,0.04201330400000014,1,,"[{'time': 160, 'w1': -0.008, 'stock1_payoff': -1.8706960000000001, 'w2': 0.188, 'stock2_payoff': 3.4971863400000003, 'type': '上開倉'}, {'time': 164, 'w1': 0.008, 'stock1_payoff': 1.931122964, 'w2': -0.188, 'stock2_payoff': -3.5156, 'type': '正常平倉'}]"
+BTGUSDT,FILUSDT,0.0,1.5,1000,0.0,0,,[]
+FILUSDT,ICPUSDT,53.445346099999995,1.5,1000,0.1722131399999931,1,,"[{'time': 124, 'w1': 0.436, 'stock1_payoff': 32.1503021, 'w2': -0.412, 'stock2_payoff': -23.66116, 'type': '下開倉'}, {'time': 134, 'w1': -0.436, 'stock1_payoff': -32.47328, 'w2': 0.412, 'stock2_payoff': 24.156351039999997, 'type': '正常平倉'}]"
+FTTUSDT,ICPUSDT,27.9555748,1.5,1000,0.13807080000000482,1,,"[{'time': 121, 'w1': 0.272, 'stock1_payoff': 12.398174800000001, 'w2': -0.3, 'stock2_payoff': -17.285999999999998, 'type': '上開倉'}, {'time': 134, 'w1': -0.272, 'stock1_payoff': -12.56368, 'w2': 0.3, 'stock2_payoff': 17.589576, 'type': '正常平倉'}]"
+ICPUSDT,NMRUSDT,149.5736647,1.5,1000,1.4702826999999843,1,,"[{'time': 121, 'w1': -1.308, 'stock1_payoff': -75.36696, 'w2': 1.924, 'stock2_payoff': 81.7434007, 'type': '上開倉'}, {'time': 135, 'w1': 1.308, 'stock1_payoff': 77.056242, 'w2': -1.924, 'stock2_payoff': -81.9624, 'type': '正常平倉'}]"

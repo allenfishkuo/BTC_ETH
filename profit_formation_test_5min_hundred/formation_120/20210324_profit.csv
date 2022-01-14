@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+KSMUSDT,LTCUSDT,532.972643328,1.5,1000,-14.103610291999871,1,,"[{'time': 125, 'w1': 0.576, 'stock1_payoff': 260.664863328, 'w2': -1.556, 'stock2_payoff': -302.56419999999997, 'type': '下開倉'}, {'time': 285, 'w1': -0.576, 'stock1_payoff': -247.87123199999996, 'w2': 1.556, 'stock2_payoff': 275.66695838000004, 'type': '尾盤強制平倉'}]"

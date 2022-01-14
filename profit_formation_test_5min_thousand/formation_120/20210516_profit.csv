@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ETHUSDT,PAXGUSDT,6480.26079834,1.5,1000,-423.00380318,1,,"[{'time': 146, 'w1': -1.864, 'stock1_payoff': -7056.3211200000005, 'w2': 0.068, 'stock2_payoff': 129.57179034000004, 'type': '下開倉'}, {'time': 285, 'w1': 1.864, 'stock1_payoff': 6636.346206480001, 'w2': -0.068, 'stock2_payoff': -132.60068, 'type': '尾盤強制平倉'}]"

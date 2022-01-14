@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+DASHUSDT,SOLUSDT,72.0703335,1.5,1000,0.2548512600000059,1,,"[{'time': 124, 'w1': -0.196, 'stock1_payoff': -31.14832, 'w2': 1.22, 'stock2_payoff': 44.0368455, 'type': '上開倉'}, {'time': 138, 'w1': 0.196, 'stock1_payoff': 31.109425760000004, 'w2': -1.22, 'stock2_payoff': -43.7431, 'type': '正常平倉'}]"

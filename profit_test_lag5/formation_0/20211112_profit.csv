@@ -1,0 +1,5 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BNBUSDT,DOGEUSDT,1.4675921,1.5,1000,0.005959150000000024,1,,"[{'time': 741, 'w1': 0.002, 'stock1_payoff': 1.2367421, 'w2': -1.0, 'stock2_payoff': -0.2565, 'type': '下開倉'}, {'time': 769, 'w1': -0.002, 'stock1_payoff': -1.2292, 'w2': 1.0, 'stock2_payoff': 0.25491705000000003, 'type': '正常平倉'}]"
+BUSDUSDT,LUNAUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+ELFUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+NEARUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

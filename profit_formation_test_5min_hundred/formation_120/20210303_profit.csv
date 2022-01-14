@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BNBUPUSDT,BNBUSDT,418.81238119399995,1.5,1000,0.18471596500003784,1,,"[{'time': 128, 'w1': 0.292, 'stock1_payoff': 161.15710519399997, 'w2': -1.14, 'stock2_payoff': -286.28363999999993, 'type': '上開倉'}, {'time': 131, 'w1': -0.292, 'stock1_payoff': -158.509864, 'w2': 1.14, 'stock2_payoff': 283.821114771, 'type': '正常平倉'}]"
+BNBUPUSDT,COMPUSDT,1196.999608166,1.5,1000,8.668690626000057,1,,"[{'time': 120, 'w1': 0.596, 'stock1_payoff': 331.48058816599996, 'w2': -1.884, 'stock2_payoff': -961.6877999999999, 'type': '下開倉'}, {'time': 204, 'w1': -0.596, 'stock1_payoff': -319.18720399999995, 'w2': 1.884, 'stock2_payoff': 958.06310646, 'type': '正常平倉'}]"

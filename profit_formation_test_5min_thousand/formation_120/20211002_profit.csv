@@ -1,0 +1,4 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+ETHUSDT,PAXGUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+ETHUSDT,YFIIUSDT,9131.828400000002,1.5,1000,6.4333660000002055,1,,"[{'time': 120, 'w1': -1.828, 'stock1_payoff': -6001.982080000001, 'w2': 0.872, 'stock2_payoff': 3730.0445280000004, 'type': '上開倉'}, {'time': 134, 'w1': 1.828, 'stock1_payoff': 5970.418918, 'w2': -0.872, 'stock2_payoff': -3692.048, 'type': '正常平倉'}]"
+MKRUSDT,PAXGUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

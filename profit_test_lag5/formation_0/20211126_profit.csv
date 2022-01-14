@@ -1,0 +1,8 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BTCUSDT,BUSDUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,CRVUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,ETHUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,LUNAUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+BUSDUSDT,SANDUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
+ETHUSDT,POWRUSDT,7.796382400000001,1.5,1000,0.043696380000000756,1,,"[{'time': 720, 'w1': -0.002, 'stock1_payoff': -7.98988, 'w2': 1.0, 'stock2_payoff': 0.6054904000000001, 'type': '下開倉'}, {'time': 1437, 'w1': 0.002, 'stock1_payoff': 8.050585980000001, 'w2': -1.0, 'stock2_payoff': -0.6225, 'type': '尾盤強制平倉'}]"
+ETHUSDT,SANDUSDT,14.036695180000002,1.5,1000,0.3425996299999996,1,,"[{'time': 720, 'w1': 0.002, 'stock1_payoff': 7.977895180000001, 'w2': -1.0, 'stock2_payoff': -6.732, 'type': '下開倉'}, {'time': 781, 'w1': -0.002, 'stock1_payoff': -8.076220000000001, 'w2': 1.0, 'stock2_payoff': 7.17292445, 'type': '正常平倉'}]"

@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AAVEUSDT,LTCUSDT,681.9271324800001,1.5,1000,1.914560100000017,1,,"[{'time': 120, 'w1': 0.608, 'stock1_payoff': 295.17225648, 'w2': -1.604, 'stock2_payoff': -429.72764000000006, 'type': '下開倉'}, {'time': 123, 'w1': -0.608, 'stock1_payoff': -297.1296, 'w2': 1.604, 'stock2_payoff': 433.5995436200001, 'type': '正常平倉'}]"

@@ -1,0 +1,3 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+AUTOUSDT,COMPUSDT,558.8468523,1.5,1000,4.9053558600001,1,,"[{'time': 126, 'w1': -0.296, 'stock1_payoff': -268.768, 'w2': 0.98, 'stock2_payoff': 316.95565230000005, 'type': '上開倉'}, {'time': 133, 'w1': 0.296, 'stock1_payoff': 275.75670356, 'w2': -0.98, 'stock2_payoff': -319.039, 'type': '正常平倉'}]"
+AUTOUSDT,KSMUSDT,293.96500948,1.5,1000,-2.8725786799999504,1,,"[{'time': 120, 'w1': 0.308, 'stock1_payoff': 279.07843348, 'w2': -0.076, 'stock2_payoff': -16.54064, 'type': '下開倉'}, {'time': 285, 'w1': -0.308, 'stock1_payoff': -281.60747999999995, 'w2': 0.076, 'stock2_payoff': 16.19710784, 'type': '尾盤強制平倉'}]"

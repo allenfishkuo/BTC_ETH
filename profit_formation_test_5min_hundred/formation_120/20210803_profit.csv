@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+KSMUSDT,QNTUSDT,78.940178,1.5,1000,0.7795181199999988,1,,"[{'time': 133, 'w1': -0.204, 'stock1_payoff': -40.40015999999999, 'w2': 0.28, 'stock2_payoff': 42.580034000000005, 'type': '上開倉'}, {'time': 146, 'w1': 0.204, 'stock1_payoff': 40.123644119999994, 'w2': -0.28, 'stock2_payoff': -41.52400000000001, 'type': '正常平倉'}]"

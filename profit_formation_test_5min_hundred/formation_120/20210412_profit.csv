@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+DASHUSDT,KSMUSDT,529.28528484,1.5,1000,4.137958360000056,1,,"[{'time': 128, 'w1': 0.732, 'stock1_payoff': 203.20537404, 'w2': -0.868, 'stock2_payoff': -362.311012, 'type': '下開倉'}, {'time': 133, 'w1': -0.732, 'stock1_payoff': -205.83108, 'w2': 0.868, 'stock2_payoff': 369.07467632000004, 'type': '正常平倉'}]"

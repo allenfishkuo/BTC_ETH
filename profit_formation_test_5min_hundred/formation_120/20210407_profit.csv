@@ -1,0 +1,2 @@
+stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
+BNBUSDT,COMPUSDT,1179.9607735999998,1.5,1000,7.192725706600072,1,,"[{'time': 125, 'w1': -1.636, 'stock1_payoff': -630.817878, 'w2': 1.324, 'stock2_payoff': 612.2246834, 'type': '上開倉'}, {'time': 237, 'w1': 1.636, 'stock1_payoff': 614.8864803066, 'w2': -1.324, 'stock2_payoff': -589.10056, 'type': '正常平倉'}]"
