@@ -41,6 +41,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
         #ind[mi,0:2] = rowS.columns.values
 
         ind[mi,0],ind[mi,1] = int(col_name[rowS.columns[0]]),int(col_name[rowS.columns[1]])
+       # print(ind)
         rowAS = np.array(rowS)
         # 配適 VAR(P) 模型 ，並利用BIC選擇落後期數，max_p意味著會檢查2~max_p
         try:
@@ -54,7 +55,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
             # portmanteau test
             model = VAR(rowAS)
             
-            if model.fit(p).test_whiteness( nlags = 10 ).pvalue < 0.05:
+            if model.fit(p).test_whiteness( nlags = 5).pvalue < 0.05:
             
                 continue
         
@@ -65,7 +66,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
                 continue
              """         
             opt_model = jci.JCI_AutoSelection(rowAS,p-1)  #bic based model selection
-            print("model select :",opt_model)
+            #print("model select :",opt_model)
             count += 1
             #opt_model = jci.JCI_select_model3(rowAS,p-1) #no model selection
             #如果有共整合，紀錄下Model與opt_q
@@ -75,7 +76,8 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
             Com_para = []
             Com_para.append(F_a)
             Com_para.append(F_b)
-            Com_para.extend(F_ct)               
+            Com_para.extend(F_ct)  
+           # print(Com_para)            
             #把  arrary.shape(2,1) 的數字放進 shape(2,) 的Serires 
             #取出共整合係數
             B[:,mi] =  pd.DataFrame(F_b).stack()
@@ -108,6 +110,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
             ind[mi,4] = Johansen_slope
             ind[mi,5] = Johansen_std
             SStd = Johansen_std
+            print("Johansen_intcept :",Johansen_intcept)
             cy_mean[:,mi] = Johansen_intcept + Johansen_slope*np.linspace(0,249,250)
             #以資金權重建構Naturn Log共整合序列
             cy[:,mi] = pd.DataFrame( np.mat(rowLS) * np.mat(CapitW[:,mi]).T).stack()
@@ -136,13 +139,14 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
     dd = np.zeros([ind.shape[0],1])
     test_Model = ind[:,6] != 0 
     dd = test_Model 
+    #print(ind)
     ind_select = ind[dd,:] #排除沒有共整合關係的配對
     ind_select = ind_select.tolist()
-    print(ind_select)
+    #print(ind_select)
     for index in range(len(ind_select)):
-        print(ind_select[index][0] ,ind_select[index][1] )
+        #print(ind_select[index][0] ,ind_select[index][1] )
         ind_select[index][0] ,ind_select[index][1] = get_key(col_name,ind_select[index][0]),get_key(col_name,ind_select[index][1]) 
-        print(ind_select[index][0] ,ind_select[index][1] )
+        #print(ind_select[index][0] ,ind_select[index][1] )
     print(ind_select)
     return ind_select
 def daily_procces(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):

@@ -26,7 +26,7 @@ from multiprocessing import Pool
 from correlation_check import correlation_check
 #import FT_compare
 path_to_tick = "/Users/kuoweilun/CryptoCurrency_PT-main/test_tens"
-path_to_tick = "/Users/kuoweilun/CryptoCurrency_PT-main/BTC_ETH_test"
+path_to_tick = "/Users/kuoweilun/CryptoCurrency_PT-main/BTC_ETH_oct"
 
 ext_of_compare = "_table.csv"
 path_to_profit = "/Users/kuoweilun/CryptoCurrency_PT-main/profit_formation_test_5min_tens/"
@@ -73,20 +73,18 @@ def test_reward(formation_time, year = 2021):
     action_list = []
     action_list2 = []
     check = 0
-    path_to_compare = f'/Users/kuoweilun/CryptoCurrency_PT-main/Crypto_Currency_Cointegration/formation_{formation_time}_5min_tens/2021'
-    path_to_compare = f'/Users/kuoweilun//CryptoCurrency_PT-main/Crypto_Currency_Cointegration/BTC_ETH_table'
-    datelist = [f.split('_')[0] for f in os.listdir(f'{path_to_compare}/')]
-    print(datelist)
+    path_to_compare = f'/Users/kuoweilun//CryptoCurrency_PT-main/Crypto_Currency_Cointegration/BTC_ETH_loop_table'
     #print(datelist[167:])
     profit_count = 0
     count = 0
     total_normal = 0
     program_file = f'{path_to_profit}/formation_{formation_time}/'
+    table = pd.read_csv(f'{path_to_compare}/BTC_ETH_oct_table.csv', dtype = dtype)
+    tickdata = pd.read_csv(f'{path_to_tick}/BTC_ETH_oct.csv')
     
     if not os.path.exists(program_file):
                 os.makedirs(program_file)
-    for date in sorted(datelist[:10]): #決定交易要從何時開始
-        print(date)
+    for date in range(1): #決定交易要從何時開始
         open_list = []
         loss_list = []
         trade_capital_list = []
@@ -94,8 +92,6 @@ def test_reward(formation_time, year = 2021):
         open_num_list = []
         trading_history = []
         negative_pair = {}
-        table = pd.read_csv(f'{path_to_compare}/{date}_table.csv', dtype = dtype)
-        tickdata = pd.read_csv(f'{path_to_tick}/{date[:4]}-{date[4:6]}-{date[6:8]}_daily_min_price.csv')
         tickdata = tickdata.iloc[:]
         tickdata.index = np.arange(0,len(tickdata),1)  
         num = np.arange(0,len(table),1)
@@ -116,17 +112,14 @@ def test_reward(formation_time, year = 2021):
         loss_list = []
         for index, row in normal_table[:].iterrows():
             _trade, _profit, _capital, _return, _trading_rule,_history = 0, 0 ,0 ,0,[0,0,0],{}
-            s1_tick = tickdata[row["S1"]]
-            s2_tick = tickdata[row["S2"]]
             
-            tmp_pair = row["S1"]+':'+row["S2"]
-            #if correlation_check(formation_time, s1_tick, s2_tick)  :
+            del_min = row["form_del_min"]
+            s1_tick = tickdata[row["S1"]][del_min:]
+            s2_tick = tickdata[row["S2"]][del_min:]
+            s1_tick.index =np.arange(0,len(s1_tick),1)
+            s2_tick.index =np.arange(0,len(s2_tick),1)
+            
             _trade, _profit, _capital, _return, _trading_rule, _history = trade_normal(s1_tick, s2_tick, row.to_dict(), strategy, formation_time)
-            if _profit < 0 :
-                if tmp_pair not in negative_pair:
-                    negative_pair[tmp_pair] = 1
-                else :
-                    negative_pair[tmp_pair] += 1
             total_normal += _profit
             total_trade[0] += _trading_rule[0]
             total_trade[1] += _trading_rule[1]
