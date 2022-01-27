@@ -18,7 +18,7 @@ def get_key (dict, value):
 def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
     col_name = {name : i for i, name in enumerate(Smin.columns.values)}
     #print(col_name)
-    LSmin = np.log(Smin) #已捨棄前16分鐘與最後五分鐘的股價取log
+    LSmin = np.log(Smin) 
     #LSmin = Smin
     maxcompanynu = Smin.shape[1] #找出有多少檔
     ind = mt.Binal_comb(range(maxcompanynu))
@@ -35,7 +35,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
     for mi in range(ind.shape[0]):
     #for mi in range(1):
         rowS = LSmin.iloc[0:inNum,[int(ind[mi,0]),int(ind[mi,1])]] #150分鐘
-        rowLS = LSmin.iloc[:DailyNum,[int(ind[mi,0]),int(ind[mi,1])]]  #250分鐘
+       
         #stock1 = Smin.iloc[inNum-1,[int(ind[mi,0])]]
         #stock2 = Smin.iloc[inNum-1,[int(ind[mi,1])]]
         #ind[mi,0:2] = rowS.columns.values
@@ -60,11 +60,11 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
                 continue
         
             # Normality test
-            """
+            
             if model.fit(p).test_normality().pvalue < 0.05:
             
                 continue
-             """         
+                    
             opt_model = jci.JCI_AutoSelection(rowAS,p-1)  #bic based model selection
             #print("model select :",opt_model)
             count += 1
@@ -102,7 +102,7 @@ def formation_table(Smin, inNum,costS,cost,os,cs,MaxV,OpenD,Min_cp, Max_tp):
                 ind[mi,8] = optXY[1]
             
            '''
-            #計算Spread的時間趨勢均值與標準差
+            #計算Spread的時間趨勢均值與標準差 model 1-5
             Johansen_intcept, Johansen_slope = jci.Johansen_mean(F_a,F_b,F_gam,F_ct,p-1)
             Johansen_var_correct = jci.Johansen_std_correct(F_a,F_b,F_ut, F_gam,p-1)
             Johansen_std = np.sqrt(Johansen_var_correct)

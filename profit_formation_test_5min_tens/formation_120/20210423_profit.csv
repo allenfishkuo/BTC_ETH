@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-DCRUSDT,NMRUSDT,179.35227863199998,1.5,1000,2.7490203020000052,1,,"[{'time': 121, 'w1': -0.62, 'stock1_payoff': -105.4558, 'w2': 1.436, 'stock2_payoff': 84.442058632, 'type': '上開倉'}, {'time': 141, 'w1': 0.62, 'stock1_payoff': 112.41134967, 'w2': -1.436, 'stock2_payoff': -88.648588, 'type': '正常平倉'}]"
-NEOUSDT,NMRUSDT,175.10748336,1.5,1000,2.728159660000003,1,,"[{'time': 126, 'w1': 1.08, 'stock1_payoff': 88.97929056000001, 'w2': -1.612, 'stock2_payoff': -95.69799200000001, 'type': '下開倉'}, {'time': 131, 'w1': -1.08, 'stock1_payoff': -88.81812, 'w2': 1.612, 'stock2_payoff': 98.2649811, 'type': '正常平倉'}]"

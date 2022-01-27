@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-BNBUSDT,SOLUSDT,178.80408715200002,1.5,1000,0.9016060320000037,1,,"[{'time': 122, 'w1': -0.168, 'stock1_payoff': -106.53048000000001, 'w2': 1.892, 'stock2_payoff': 82.92665515200001, 'type': '下開倉'}, {'time': 183, 'w1': 0.168, 'stock1_payoff': 108.45914688, 'w2': -1.892, 'stock2_payoff': -83.953716, 'type': '正常平倉'}]"

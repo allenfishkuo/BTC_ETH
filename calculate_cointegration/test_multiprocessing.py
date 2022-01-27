@@ -4,7 +4,7 @@ Created on Fri Dec 31 09:59:18 2021
 
 @author: Allen
 """
-
+#原本要multi-process code 目前沒在使用
 #import torch
 #import torch.nn as nn
 import numpy as np

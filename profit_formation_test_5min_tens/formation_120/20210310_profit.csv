@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-FILUSDT,NEOUSDT,24.102877946400003,1.5,1000,0.039214984400002706,1,,"[{'time': 124, 'w1': 0.408, 'stock1_payoff': 17.0890303464, 'w2': -0.188, 'stock2_payoff': -7.793164000000001, 'type': '下開倉'}, {'time': 155, 'w1': -0.408, 'stock1_payoff': -17.0546448, 'w2': 0.188, 'stock2_payoff': 7.797993438000001, 'type': '正常平倉'}]"

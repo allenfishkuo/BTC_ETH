@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-BNBUPUSDT,BNBUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-COMPUSDT,ILVUSDT,431.557863,1.5,1000,1.830900400000047,1,,"[{'time': 124, 'w1': -1.668, 'stock1_payoff': -308.07959999999997, 'w2': 0.14, 'stock2_payoff': 154.28622300000004, 'type': '上開倉'}, {'time': 133, 'w1': 1.668, 'stock1_payoff': 310.2822774, 'w2': -0.14, 'stock2_payoff': -154.65800000000002, 'type': '正常平倉'}]"

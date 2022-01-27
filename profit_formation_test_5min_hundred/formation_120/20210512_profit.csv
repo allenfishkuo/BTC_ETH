@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,BCHUSDT,0.0,1.5,1000,0.0,0,,[]
-BCHUSDT,LTCUSDT,317.81918188000003,1.5,1000,1.7220913799999948,1,,"[{'time': 122, 'w1': -0.1, 'stock1_payoff': -149.07000000000002, 'w2': 0.488, 'stock2_payoff': 183.65618188000002, 'type': '上開倉'}, {'time': 146, 'w1': 0.1, 'stock1_payoff': 149.4624695, 'w2': -0.488, 'stock2_payoff': -182.32656, 'type': '正常平倉'}]"

@@ -9,7 +9,12 @@ Created on Sat Jan 12 15:04:26 2019
 #import pandas as pd
 #import numpy as np
 def tax(payoff, rate):
-    tax_price = payoff * (1 - rate * (payoff > 0))
+    #tax_price = payoff * (1 - rate * (payoff != 0))
+    if payoff > 0 :
+        tax_price = payoff * (1 - rate )
+    if payoff < 0 :
+        tax_price = payoff * (1 + rate )
+    
     return tax_price
 """
 def tax( stock1_payoff , stock2_payoff , pos , tax_cost ):

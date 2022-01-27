@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,COMPUSDT,620.3087641000001,1.5,1000,0.45115994000008186,1,,"[{'time': 132, 'w1': -0.896, 'stock1_payoff': -330.31936, 'w2': 0.772, 'stock2_payoff': 323.02134010000003, 'type': '上開倉'}, {'time': 181, 'w1': 0.896, 'stock1_payoff': 339.42353984000005, 'w2': -0.772, 'stock2_payoff': -331.67436, 'type': '正常平倉'}]"
-AUTOUSDT,XMRUSDT,602.839524,1.5,1000,-1.6431292200000485,1,,"[{'time': 120, 'w1': 0.2, 'stock1_payoff': 281.577, 'w2': -1.188, 'stock2_payoff': -356.95836, 'type': '下開倉'}, {'time': 285, 'w1': -0.2, 'stock1_payoff': -297.204, 'w2': 1.188, 'stock2_payoff': 370.94223078, 'type': '尾盤強制平倉'}]"

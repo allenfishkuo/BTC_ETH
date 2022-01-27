@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ETCUSDT,ICPUSDT,135.34971664,1.5,1000,1.3454151600000017,1,,"[{'time': 136, 'w1': 0.94, 'stock1_payoff': 70.29663664, 'w2': -1.096, 'stock2_payoff': -72.28120000000001, 'type': '下開倉'}, {'time': 241, 'w1': -0.94, 'stock1_payoff': -63.0646, 'w2': 1.096, 'stock2_payoff': 66.39457852000001, 'type': '正常平倉'}]"

@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ATOMUSDT,BTGUSDT,39.101466792,1.5,1000,0.4310663639999994,1,,"[{'time': 130, 'w1': -1.428, 'stock1_payoff': -21.711312, 'w2': 0.304, 'stock2_payoff': 19.561285992, 'type': '下開倉'}, {'time': 135, 'w1': 1.428, 'stock1_payoff': 22.006692372, 'w2': -0.304, 'stock2_payoff': -19.4256, 'type': '正常平倉'}]"
-BTGUSDT,LUNAUSDT,27.122883898000005,1.5,1000,0.5145418980000027,1,,"[{'time': 126, 'w1': 0.164, 'stock1_payoff': 10.240683898000002, 'w2': -2.0, 'stock2_payoff': -18.758, 'type': '下開倉'}, {'time': 141, 'w1': -0.164, 'stock1_payoff': -10.678532, 'w2': 2.0, 'stock2_payoff': 19.71039, 'type': '正常平倉'}]"

@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ETHUSDT,MKRUSDT,2366.3145027600003,1.5,1000,3.7112124600000698,1,,"[{'time': 126, 'w1': -0.62, 'stock1_payoff': -1261.6504, 'w2': 0.504, 'stock2_payoff': 1230.82914276, 'type': '上開倉'}, {'time': 128, 'w1': 0.62, 'stock1_payoff': 1257.7707097, 'w2': -0.504, 'stock2_payoff': -1223.23824, 'type': '正常平倉'}]"

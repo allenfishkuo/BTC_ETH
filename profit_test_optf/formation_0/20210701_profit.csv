@@ -1,7 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,BUSDUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-ADAUSDT,AVAXUSDT,2.1915563464,1.5,1000,-0.015800491599999966,1,,"[{'time': 749, 'w1': 1.012, 'stock1_payoff': 1.3390907464000001, 'w2': -0.084, 'stock2_payoff': -0.947184, 'type': '下開倉'}, {'time': 1437, 'w1': -1.012, 'stock1_payoff': -1.3481864000000001, 'w2': 0.084, 'stock2_payoff': 0.940479162, 'type': '尾盤強制平倉'}]"
-AVAXUSDT,LINKUSDT,30.322664183999997,1.5,1000,0.029581783999999445,1,,"[{'time': 789, 'w1': 1.524, 'stock1_payoff': 17.280584184, 'w2': -0.8, 'stock2_payoff': -14.491200000000001, 'type': '下開倉'}, {'time': 868, 'w1': -1.524, 'stock1_payoff': -16.988028, 'w2': 0.8, 'stock2_payoff': 14.228225600000002, 'type': '正常平倉'}]"
-AVAXUSDT,UNIUSDT,2.901053988,1.5,1000,0.002274964000000157,1,,"[{'time': 730, 'w1': -0.136, 'stock1_payoff': -1.530816, 'w2': 0.084, 'stock2_payoff': 1.5233195880000001, 'type': '下開倉'}, {'time': 789, 'w1': 0.136, 'stock1_payoff': 1.5420993760000001, 'w2': -0.084, 'stock2_payoff': -1.5323280000000001, 'type': '正常平倉'}]"
-SUSHIUSDT,XRPUSDT,0.28552434400000004,1.5,1000,0.00013067340000000316,1,,"[{'time': 767, 'w1': 0.016, 'stock1_payoff': 0.120363184, 'w2': -0.276, 'stock2_payoff': -0.18351240000000002, 'type': '下開倉'}, {'time': 804, 'w1': -0.016, 'stock1_payoff': -0.12078399999999999, 'w2': 0.276, 'stock2_payoff': 0.1840638894, 'type': '正常平倉'}]"
-TRXUSDT,XRPUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

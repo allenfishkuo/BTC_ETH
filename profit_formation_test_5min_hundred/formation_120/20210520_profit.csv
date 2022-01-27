@@ -1,4 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,XMRUSDT,436.2962019,1.5,1000,4.342539979999998,1,,"[{'time': 121, 'w1': -0.488, 'stock1_payoff': -216.38408, 'w2': 1.02, 'stock2_payoff': 241.55052990000002, 'type': '上開倉'}, {'time': 143, 'w1': 0.488, 'stock1_payoff': 226.85249008, 'w2': -1.02, 'stock2_payoff': -247.6764, 'type': '正常平倉'}]"
-COMPUSDT,XMRUSDT,809.812692,1.5,1000,10.785927059999949,1,,"[{'time': 125, 'w1': -0.772, 'stock1_payoff': -396.70764, 'w2': 1.88, 'stock2_payoff': 452.77581599999996, 'type': '上開倉'}, {'time': 163, 'w1': 0.772, 'stock1_payoff': 427.76335106, 'w2': -1.88, 'stock2_payoff': -473.0456, 'type': '正常平倉'}]"
-LTCUSDT,XMRUSDT,783.5182344,1.5,1000,6.28535439999996,1,,"[{'time': 125, 'w1': -2.0, 'stock1_payoff': -417.8, 'w2': 1.692, 'stock2_payoff': 407.4982344, 'type': '上開倉'}, {'time': 149, 'w1': 2.0, 'stock1_payoff': 439.7394, 'w2': -1.692, 'stock2_payoff': -423.15228, 'type': '正常平倉'}]"

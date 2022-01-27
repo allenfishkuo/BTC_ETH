@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AVAXUSDT,DCRUSDT,30.910226,1.5,1000,0.41629140600000447,1,,"[{'time': 145, 'w1': -1.804, 'stock1_payoff': -21.938444, 'w2': 0.08, 'stock2_payoff': 11.1656264, 'type': '上開倉'}, {'time': 228, 'w1': 1.804, 'stock1_payoff': 22.424309006000005, 'w2': -0.08, 'stock2_payoff': -11.2352, 'type': '正常平倉'}]"

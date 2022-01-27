@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ETHUSDT,YFIIUSDT,3100.7971008000004,1.5,1000,13.410978540000087,1,,"[{'time': 127, 'w1': -0.516, 'stock1_payoff': -1126.54152, 'w2': 0.992, 'stock2_payoff': 2086.9097328000003, 'type': '下開倉'}, {'time': 131, 'w1': 0.516, 'stock1_payoff': 1114.42868574, 'w2': -0.992, 'stock2_payoff': -2061.38592, 'type': '正常平倉'}]"
-MKRUSDT,YFIIUSDT,2252.56388964,1.5,1000,9.55859213999986,1,,"[{'time': 128, 'w1': -0.3, 'stock1_payoff': -800.406, 'w2': 0.728, 'stock2_payoff': 1532.19848964, 'type': '下開倉'}, {'time': 131, 'w1': 0.3, 'stock1_payoff': 790.5573825, 'w2': -0.728, 'stock2_payoff': -1512.7912800000001, 'type': '正常平倉'}]"

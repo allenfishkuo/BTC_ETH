@@ -1,4 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,DASHUSDT,15.19198529,1.5,1000,0.02459924999999874,1,,"[{'time': 122, 'w1': 0.02, 'stock1_payoff': 7.6596332899999995, 'w2': -0.036, 'stock2_payoff': -8.36928, 'type': '下開倉'}, {'time': 268, 'w1': -0.02, 'stock1_payoff': -7.542680000000001, 'w2': 0.036, 'stock2_payoff': 8.27692596, 'type': '正常平倉'}]"
-COMPUSDT,DASHUSDT,0.0,1.5,1000,0.0,0,,[]
-COMPUSDT,LTCUSDT,510.53671504,1.5,1000,-5.09131425999999,1,,"[{'time': 122, 'w1': -0.58, 'stock1_payoff': -250.03219999999996, 'w2': 1.408, 'stock2_payoff': 285.50773504, 'type': '上開倉'}, {'time': 285, 'w1': 0.58, 'stock1_payoff': 241.72307069999997, 'w2': -1.408, 'stock2_payoff': -282.28992, 'type': '尾盤強制平倉'}]"

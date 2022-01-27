@@ -42,33 +42,40 @@ days = ["01","02","03","04","05","06","07","08","09","10",
 #else:
 #   test_csv_name = '_averagePrice_min'
 #or indataNum in range(100,110,10):z
-save_path = '/Users/kuoweilun/CryptoCurrency_PT-main/Crypto_Currency_Cointegration'
-test_path = '/Users/kuoweilun/CryptoCurrency_PT-main/BTC_ETH_oct'
-btc_eth_table_combine = pd.DataFrame(columns = ['S1','S2','VECM(q)','mu','Johansen_slope','stdev','model','w1','w2','form_del_min'])
-for form_del_min in range(0,30000,1):
-            indataNum = 120
-            program_file = f'{save_path}/BTC_ETH_loop2_table/'
+
+save_path = '/home/allen/CryptoCurrency_TP/BTC_ETH_table' #save路徑
+test_path = '/home/allen/CryptoCurrency_TP/'              #讀取2021-03~ 2021-10 的5分K csv檔
+btc_eth_table_combine = pd.DataFrame(columns = ['S1','S2','VECM(q)','mu','Johansen_slope','stdev','model','w1','w2','form_del_min']) # calculate cointegration之後算產生的餐數 w1 w2為共整合係數（資金權重）
+for t in range(1,2): 
+    indataNum = 120
+    for form_del_min in range(0,90000,1):   #form_del_min為rolling window刪去前面多少個5分k
+            program_file = f'{save_path}/formation_{indataNum}'
             if not os.path.exists(program_file):
                 os.makedirs(program_file)
 
             try:
-                        test_data = pd.read_csv(test_path+'/'+"BTC_ETH_oct.csv",index_col=False)
+                        #print("iin")
+                        test_data = pd.read_csv(test_path+'/'+"BTC_ETH_combine.csv",index_col=False)
+                        #test_data = pd.read_csv(test_path+"BTC_ETH_combine.csv",index_col=False)
+                        test_data = test_data[["BTCUSDT","ETHUSDT"]]
+                        #test_data = test_data[["BTCUSDT","ETHUSDT","AVAXUSDT","BNBUSDT","LUNAUSDT"]]
+                        #print(test_data)
                         test_data = test_data.iloc[form_del_min:,:]
                         if len(test_data) < 240 :
                             break
                         test_data = test_data.reset_index(drop=True)
-                        #print(test_data)
+                        print(test_data)
                         #test_data = test_data[['2379','6269']]
                         dailytable = ptm.formation_table(test_data,indataNum,CostS,Cost,Os,Fs,MaxVolume,OpenDrop,Min_c_p, Max_t_p)         
                         btc_eth_table = pd.DataFrame(dailytable,columns = ['S1','S2','VECM(q)','mu','Johansen_slope','stdev','model','w1','w2'])
                         
                         if not btc_eth_table.empty :
-                            btc_eth_table["form_del_min"] = form_del_min
+                            btc_eth_table["form_del_min"] = form_del_min                           
                             btc_eth_table_combine = pd.concat([btc_eth_table_combine,btc_eth_table],ignore_index=True)
                             
             except:
                         
                         continue
-btc_eth_table_combine.to_csv( f"{program_file}/BTC_ETH_oct_table.csv" ,index = False)
+    btc_eth_table_combine.to_csv( f"{program_file}/BTC_ETH_formation_table_p10.csv" ,index = False)
 
 

@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-DCRUSDT,FTTUSDT,180.05190058400004,1.5,1000,0.36882482800002947,1,,"[{'time': 120, 'w1': 0.656, 'stock1_payoff': 116.26468498400003, 'w2': -1.772, 'stock2_payoff': -70.874684, 'type': '下開倉'}, {'time': 127, 'w1': -0.656, 'stock1_payoff': -115.763008, 'w2': 1.772, 'stock2_payoff': 70.741831844, 'type': '正常平倉'}]"

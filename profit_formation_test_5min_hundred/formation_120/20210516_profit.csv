@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,BNBUSDT,1981.38095926,1.5,1000,7.186435700000175,1,,"[{'time': 120, 'w1': -1.892, 'stock1_payoff': -1049.9275599999999, 'w2': 1.724, 'stock2_payoff': 1036.44615526, 'type': '上開倉'}, {'time': 123, 'w1': 1.892, 'stock1_payoff': 1059.10200044, 'w2': -1.724, 'stock2_payoff': -1038.43416, 'type': '正常平倉'}]"
-AAVEUSDT,LTCUSDT,832.21812436,1.5,1000,3.3277287999999317,1,,"[{'time': 123, 'w1': 0.748, 'stock1_payoff': 418.71474436, 'w2': -1.436, 'stock2_payoff': -459.4482, 'type': '下開倉'}, {'time': 129, 'w1': -0.748, 'stock1_payoff': -416.40412000000003, 'w2': 1.436, 'stock2_payoff': 460.46530443999995, 'type': '正常平倉'}]"

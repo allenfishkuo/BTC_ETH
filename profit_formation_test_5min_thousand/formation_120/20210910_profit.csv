@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-MKRUSDT,YFIIUSDT,8420.51617,1.5,1000,60.582850000001145,1,,"[{'time': 121, 'w1': 1.924, 'stock1_payoff': 5580.8361700000005, 'w2': -0.68, 'stock2_payoff': -3155.2000000000003, 'type': '下開倉'}, {'time': 173, 'w1': -1.924, 'stock1_payoff': -5329.48, 'w2': 0.68, 'stock2_payoff': 2964.4266800000005, 'type': '正常平倉'}]"

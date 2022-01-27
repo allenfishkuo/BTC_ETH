@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-BNBUSDT,COMPUSDT,1125.86485502,1.5,1000,-16.34280031439988,1,,"[{'time': 123, 'w1': -1.504, 'stock1_payoff': -791.684544, 'w2': 0.716, 'stock2_payoff': 413.34876541999995, 'type': '上開倉'}, {'time': 285, 'w1': 1.504, 'stock1_payoff': 764.8718582656, 'w2': -0.716, 'stock2_payoff': -402.8788799999999, 'type': '尾盤強制平倉'}]"
-DASHUSDT,XMRUSDT,563.775463,1.5,1000,-21.901223499999958,1,,"[{'time': 183, 'w1': 0.868, 'stock1_payoff': 295.977367, 'w2': -0.916, 'stock2_payoff': -297.55343999999997, 'type': '下開倉'}, {'time': 285, 'w1': -0.868, 'stock1_payoff': -331.98396, 'w2': 0.916, 'stock2_payoff': 311.6588095, 'type': '尾盤強制平倉'}]"

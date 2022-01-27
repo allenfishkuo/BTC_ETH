@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,FTMUSDT,10.547086140000001,1.5,1000,-3.0525058869400015,1,,"[{'time': 730, 'w1': -0.02, 'stock1_payoff': -11.304400000000001, 'w2': -0.764, 'stock2_payoff': -0.41458459999999997, 'type': '上開倉'}, {'time': 1437, 'w1': 0.02, 'stock1_payoff': 8.3610396, 'w2': 0.764, 'stock2_payoff': 0.30543911306000004, 'type': '尾盤強制平倉'}]"
-BUSDUSDT,USDCUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"

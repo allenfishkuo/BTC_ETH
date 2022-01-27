@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-LUNAUSDT,TORNUSDT,12.401996399999998,1.5,1000,0.0290792700000031,1,,"[{'time': 129, 'w1': -0.484, 'stock1_payoff': -5.347716, 'w2': -0.236, 'stock2_payoff': -8.432279999999999, 'type': '上開倉'}, {'time': 285, 'w1': 0.484, 'stock1_payoff': 5.236273790000001, 'w2': 0.236, 'stock2_payoff': 8.57280148, 'type': '尾盤強制平倉'}]"

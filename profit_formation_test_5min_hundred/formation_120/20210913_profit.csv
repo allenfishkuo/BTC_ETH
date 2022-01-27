@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-BNBUSDT,QNTUSDT,398.86879500000003,1.5,1000,4.630481400000036,1,,"[{'time': 120, 'w1': -0.524, 'stock1_payoff': -207.24200000000002, 'w2': 0.612, 'stock2_payoff': 212.350995, 'type': '上開倉'}, {'time': 153, 'w1': 0.524, 'stock1_payoff': 208.02988640000004, 'w2': -0.612, 'stock2_payoff': -208.5084, 'type': '正常平倉'}]"
-KSMUSDT,QNTUSDT,1058.419585,1.5,1000,12.121535000000165,1,,"[{'time': 120, 'w1': -1.0, 'stock1_payoff': -406.5, 'w2': 1.996, 'stock2_payoff': 692.5695850000001, 'type': '下開倉'}, {'time': 129, 'w1': 1.0, 'stock1_payoff': 404.49235000000004, 'w2': -1.996, 'stock2_payoff': -678.4404, 'type': '正常平倉'}]"

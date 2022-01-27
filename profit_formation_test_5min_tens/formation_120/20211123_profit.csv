@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AVAXUSDT,BTGUSDT,129.839655,1.5,1000,-2.688857959999993,1,,"[{'time': 122, 'w1': -0.272, 'stock1_payoff': -35.1968, 'w2': 1.74, 'stock2_payoff': 98.162535, 'type': '上開倉'}, {'time': 285, 'w1': 0.272, 'stock1_payoff': 33.43840704000001, 'w2': -1.74, 'stock2_payoff': -99.093, 'type': '尾盤強制平倉'}]"

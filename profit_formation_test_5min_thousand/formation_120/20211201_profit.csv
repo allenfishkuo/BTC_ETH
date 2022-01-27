@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ETHUSDT,YFIIUSDT,7052.662024240001,1.5,1000,4.304704240000774,1,,"[{'time': 121, 'w1': 0.772, 'stock1_payoff': 3645.866824240001, 'w2': -1.084, 'stock2_payoff': -3785.3280000000004, 'type': '下開倉'}, {'time': 139, 'w1': -0.772, 'stock1_payoff': -3622.89564, 'w2': 1.084, 'stock2_payoff': 3766.6615200000006, 'type': '正常平倉'}]"

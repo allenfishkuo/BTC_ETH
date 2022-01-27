@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-EOSUSDT,FTMUSDT,0.57737533364,1.5,1000,0.004965158840000039,1,,"[{'time': 740, 'w1': -0.056, 'stock1_payoff': -0.348852, 'w2': 0.692, 'stock2_payoff': 0.26340853364, 'type': '上開倉'}, {'time': 777, 'w1': 0.056, 'stock1_payoff': 0.36343722520000005, 'w2': -0.692, 'stock2_payoff': -0.2730286, 'type': '正常平倉'}]"
-FTMUSDT,SANDUSDT,1.34927129814,1.5,1000,0.012540588955999965,1,,"[{'time': 733, 'w1': 1.732, 'stock1_payoff': 0.6676702301399999, 'w2': -1.464, 'stock2_payoff': -0.75733452, 'type': '上開倉'}, {'time': 746, 'w1': -1.732, 'stock1_payoff': -0.67679632, 'w2': 1.464, 'stock2_payoff': 0.779001198816, 'type': '正常平倉'}]"

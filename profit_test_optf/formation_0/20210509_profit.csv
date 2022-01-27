@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-ADAUSDT,MATICUSDT,4.53854842364,1.5,1000,0.0398595756400002,1,,"[{'time': 740, 'w1': -1.792, 'stock1_payoff': -3.0256127999999998, 'w2': 1.948, 'stock2_payoff': 1.8154969036399997, 'type': '上開倉'}, {'time': 759, 'w1': 1.792, 'stock1_payoff': 3.070459392, 'w2': -1.948, 'stock2_payoff': -1.8204839199999998, 'type': '正常平倉'}]"

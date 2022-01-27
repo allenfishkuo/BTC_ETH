@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-LUNAUSDT,NEOUSDT,70.7213325992,1.5,1000,-0.6984984967999992,1,,"[{'time': 120, 'w1': 1.904, 'stock1_payoff': 40.7306793992, 'w2': -0.796, 'stock2_payoff': -33.322948000000004, 'type': '下開倉'}, {'time': 285, 'w1': -1.904, 'stock1_payoff': -41.87276799999999, 'w2': 0.796, 'stock2_payoff': 33.766538104, 'type': '尾盤強制平倉'}]"
-NMRUSDT,TRBUSDT,164.066712996,1.5,1000,1.0752169960000373,1,,"[{'time': 125, 'w1': -1.7, 'stock1_payoff': -85.89079999999998, 'w2': 1.772, 'stock2_payoff': 86.76499299600002, 'type': '上開倉'}, {'time': 135, 'w1': 1.7, 'stock1_payoff': 84.8725, 'w2': -1.772, 'stock2_payoff': -84.671476, 'type': '正常平倉'}]"

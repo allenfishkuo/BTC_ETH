@@ -1,2 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-DOTUSDT,LINKUSDT,73.6570043354,1.5,1000,-0.5618324179999874,1,,"[{'time': 132, 'w1': 0.812, 'stock1_payoff': 37.113302815400004, 'w2': -1.252, 'stock2_payoff': -40.604112799999996, 'type': '下開倉'}, {'time': 285, 'w1': -0.812, 'stock1_payoff': -33.78123, 'w2': 1.252, 'stock2_payoff': 36.710207566600005, 'type': '尾盤強制平倉'}]"

@@ -50,9 +50,11 @@ def correlation_check(formation_time, s1_tick, s2_tick):
     #plt.show()
     correlation = s1_tick.corr(s2_tick)
     #print("Correlation :", correlation)
-    if correlation > 0.5 :
-        return True
-    else : return False
-
+    return correlation
+def check_reward():
+    file = pd.read_csv("/home/allen/CryptoCurrency_TP/BTC_ETH_ground_truth/formation_120/BTC_ETH_ground_truth.csv")
+    negative_file = file[file["reward"]>0]
+    print(negative_file)
 if __name__ == "__main__":
-    correlation_check(1,2,3)
+    #correlation_check(1,2,3)
+    check_reward()

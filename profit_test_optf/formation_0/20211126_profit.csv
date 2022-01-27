@@ -1,8 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-AAVEUSDT,ELFUSDT,1.8894287000000003,1.5,1000,-0.01159969999999988,1,,"[{'time': 730, 'w1': -0.004, 'stock1_payoff': -0.9076000000000001, 'w2': 2.0, 'stock2_payoff': 1.0725887, 'type': '下開倉'}, {'time': 1437, 'w1': 0.004, 'stock1_payoff': 0.9242116000000001, 'w2': -2.0, 'stock2_payoff': -1.1008, 'type': '尾盤強制平倉'}]"
-BTCUSDT,BUSDUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-BUSDUSDT,ELFUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-BUSDUSDT,ETHUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-BUSDUSDT,LUNAUSDT,0.0,1.5,1000,0.0,0,,"[{'time': 0, 'type': '配對波動太小，不開倉'}]"
-ETHUSDT,FTMUSDT,0.0,1.5,1000,0.0,0,,[]
-ETHUSDT,SUSHIUSDT,0.0,1.5,1000,0.0,0,,[]

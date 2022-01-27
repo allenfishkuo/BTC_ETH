@@ -1,3 +1,0 @@
-stock1,stock2,trade_capital,open,loss,reward,open_num,trading_history,trading history
-BCHUSDT,KSMUSDT,1617.9328512119998,1.5,1000,22.39238509200004,1,,"[{'time': 120, 'w1': -1.492, 'stock1_payoff': -834.6397199999999, 'w2': 1.932, 'stock2_payoff': 866.757103212, 'type': '上開倉'}, {'time': 151, 'w1': 1.492, 'stock1_payoff': 860.69509788, 'w2': -1.932, 'stock2_payoff': -870.4200960000001, 'type': '正常平倉'}]"
-BCHUSDT,LTCUSDT,661.93356766,1.5,1000,1.5205283000000236,1,,"[{'time': 125, 'w1': 0.572, 'stock1_payoff': 319.68531165999997, 'w2': -1.856, 'stock2_payoff': -380.27584, 'type': '下開倉'}, {'time': 283, 'w1': -0.572, 'stock1_payoff': -332.69807999999995, 'w2': 1.856, 'stock2_payoff': 394.80913664, 'type': '正常平倉'}]"
